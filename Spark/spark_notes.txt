@@ -2,4 +2,6 @@
 Big data is defined by three v
 velocity
 veracity
+variety
 volume
+
