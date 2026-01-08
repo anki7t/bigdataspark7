@@ -5,3 +5,9 @@ veracity
 variety
 volume
 
+monolithic system is not scalable, distributed system is scalable.
+monolithic-->adding more power to same machine like keeping box on top of another
+distributed--->adding more resource machine in network like keeping box horizontal next to another box.
+monolithic is called vertical scaling
+distributed is called horizontal scaling.
+
