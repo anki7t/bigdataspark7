@@ -11,3 +11,6 @@ distributed--->adding more resource machine in network like keeping box horizont
 monolithic is called vertical scaling
 distributed is called horizontal scaling.
 
+two kind of things--1.Namenode 2.datanode
+it has master slave architecture.
+we can call it co-ordinator and executor nodes.
