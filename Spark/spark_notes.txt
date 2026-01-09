@@ -14,3 +14,8 @@ distributed is called horizontal scaling.
 two kind of things--1.Namenode 2.datanode
 it has master slave architecture.
 we can call it co-ordinator and executor nodes.
+
+whenever a request comes it goes to namenode first , then namenode checks the metadata entry table for requested data.
+name node maintains a table of metadata it has information about which data nodes contains which data.
+
+default block size is 128mb.
