@@ -22,3 +22,5 @@ default block size is 128mb.
 
 just to understand take small example..if you have file of 300mb file. this will be divided in 128*3 three parts
 first part will have 128mb,second part will have 128mb,third part will have 44mb.so it will have three data chunks that will be distributed across cluster of data nodes.
+further based on replication factor this data will be kept with some copy common practice is keeping 3 copy said as data with 3 replication factor.
+
