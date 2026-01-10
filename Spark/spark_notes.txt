@@ -19,3 +19,6 @@ whenever a request comes it goes to namenode first , then namenode checks the me
 name node maintains a table of metadata it has information about which data nodes contains which data.
 
 default block size is 128mb.
+
+just to understand take small example..if you have file of 300mb file. this will be divided in 128*3 three parts
+first part will have 128mb,second part will have 128mb,third part will have 44mb.so it will have three data chunks that will be distributed across cluster of data nodes.
