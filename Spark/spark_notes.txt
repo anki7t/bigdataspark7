@@ -24,3 +24,5 @@ just to understand take small example..if you have file of 300mb file. this will
 first part will have 128mb,second part will have 128mb,third part will have 44mb.so it will have three data chunks that will be distributed across cluster of data nodes.
 further based on replication factor this data will be kept with some copy common practice is keeping 3 copy said as data with 3 replication factor.
 
+name node failure is handled by secondary name node. that keeps accepting info from primary name node as process of check pointing.
+
