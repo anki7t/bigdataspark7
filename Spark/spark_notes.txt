@@ -26,3 +26,6 @@ further based on replication factor this data will be kept with some copy common
 
 name node failure is handled by secondary name node. that keeps accepting info from primary name node as process of check pointing.
 
+there are databases like hive, Casandra, Hbase hive is sql based others are no sql db(database).
+Hive commonly widely used. it has its engine (either MR,Spark,Tej).
+
