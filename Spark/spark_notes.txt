@@ -29,3 +29,6 @@ name node failure is handled by secondary name node. that keeps accepting info f
 there are databases like hive, Casandra, Hbase hive is sql based others are no sql db(database).
 Hive commonly widely used. it has its engine (either MR,Spark,Tej).
 
+hive acts as query tool for data in  big data. you can have your data in hdfs and query with hive.
+when you query data comes from hdfs and schema from hive metastore and it gives combining a table view of data.
+
