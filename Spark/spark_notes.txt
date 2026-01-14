@@ -38,3 +38,5 @@ most popular one is partition and bucketing.
 it helps to filter data fastly. when you have a column where you can filter based on somedata column which is common yo go with partition example country.
 when you have column which is not in good number then you create bucket applying some hash function or logic.
 
+there are joins also like broadcast join , map side join 
+
